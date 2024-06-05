@@ -28,6 +28,7 @@ defmodule Hello.MixProject do
 
   defp deps do
     [
+      {:bcrypt_elixir, "~> 3.0"},
       {:bandit, "1.5.2"},
       {:credo, "1.7.6", only: [:dev, :test], runtime: false},
       {:dns_cluster, "~> 0.1.3"},
